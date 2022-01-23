@@ -1,3 +1,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.btn-choose {
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+  border: none;
+  border-radius: 11px;
+  background-color: #ffedf8;
+  color: #2063c9;
+}
