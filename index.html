@@ -48,7 +48,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About Us</a>
@@ -64,7 +66,7 @@
         </div>
       </nav>
       <!-- Carousel Image Slider Start -->
-      <section class="container py-5">
+      <section class="container py-5" id="home">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -99,6 +101,7 @@
                 <h5>The Perfect Venue for Your Next Event</h5>
                 <p>Make your life event memorable for lifetime.</p>
                 <a
+                  target="_blank"
                   href="https://www.bangladeshimatrimony.com/"
                   class="btn btn-light text-primary"
                   role="button"
@@ -112,6 +115,7 @@
                 <h5>No Limit for Space</h5>
                 <p>A huge level of open space to welcome you.</p>
                 <a
+                  target="_blank"
                   href="https://www.bangladeshimatrimony.com/"
                   class="btn btn-light text-primary"
                   role="button"
@@ -125,6 +129,7 @@
                 <h5>No. 1 Marriage Agency in Bangladesh</h5>
                 <p>We Provide you the best marriage service ever.</p>
                 <a
+                  target="_blank"
                   href="https://www.bangladeshimatrimony.com/"
                   class="btn btn-light text-primary"
                   role="button"
@@ -171,6 +176,7 @@
               some of them
             </p>
             <a
+              target="_blank"
               href="https://www.google.com/photos/"
               class="btn btn-primary text-light"
               role="button"
@@ -358,6 +364,89 @@
       <!-- FAQ -->
       <section class="container"></section>
 
+      <!-- Contact -->
+      <section class="container mb-4" id="contact">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">
+          Contact us
+        </h2>
+
+        <p class="text-center w-responsive mx-auto mb-5">
+          Do you have any questions? Please do not hesitate to contact us
+          directly. Our team will come back to you within a matter of hours to
+          help you.
+        </p>
+
+        <div class="row">
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="name" class="">Your name</label>
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label for="email" class="">Your email</label>
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="subject" class="">Subject</label>
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="message">Your message</label>
+                  <div class="md-form">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="2"
+                      class="form-control md-textarea"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div class="text-center text-md-left mt-2">
+              <a class="btn btn-primary">Send</a>
+            </div>
+            <div class="status"></div>
+          </div>
+        </div>
+      </section>
       <!-- subscribe  -->
       <section
         style="height: 300px"
@@ -381,7 +470,7 @@
     >
       <div>
         <p>
-          <small>©2025. BiyeShadi Ltd. All rights reserved.</small>
+          <small>©2022. BiyeShadi Ltd. All rights reserved.</small>
         </p>
       </div>
       <div>
@@ -390,10 +479,16 @@
         >
           <h1 class="text-center text-white">Get the app now!</h1>
           <div>
-            <a href="">
+            <a
+              target="_blank"
+              href="https://play.google.com/store/apps/details?id=com.banglamatrimony"
+            >
               <img src="images/google-play.png" alt="" />
             </a>
-            <a href="">
+            <a
+              target="_blank"
+              href="https://apps.apple.com/us/app/shaadi-com-matrimony-app/id480093204"
+            >
               <img src="images/app-store.png" alt="" />
             </a>
           </div>
