@@ -10,3 +10,17 @@ body {
   background-color: #ffedf8;
   color: #2063c9;
 }
+
+.custom-card {
+  position: relative;
+  zoom: 1.2;
+  border: none;
+  border-radius: 14px;
+  background-color: #2063c9;
+  box-shadow: 5px 5px 5px 5px #adadad;
+}
+.badge-loc {
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
